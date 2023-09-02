@@ -1,0 +1,386 @@
+/* Feature section */
+#wix-feature-section {
+  
+  }
+  /* Add this CSS code at the end of your existing CSS */
+
+/* Media query for screens with a maximum width of 767px (mobile devices) */
+@media screen and (max-width: 767px) {
+  /* Adjust the styles for the hero section */
+  .hero-section h1 {
+    font-size: 3rem;
+  }
+
+  .hero-section h5 {
+    font-size: 0.8rem;
+    max-width: 100%;
+    margin-bottom: 3vh;
+  }
+
+  #hero-button-get-started {
+    width: 180px;
+    min-width: 180px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 30px;
+    margin-bottom: 1vh;
+  }
+
+  #hero-button-bottom-p {
+    font-size: 12px;
+  }
+
+  /* Adjust the styles for the hero main image */
+  .hero-main-img img {
+    width: 100%;
+  }
+}
+
+/* Media query for screens with a maximum width of 700px (smaller mobile devices) */
+@media screen and (max-width: 700px) {
+  /* Hide the hero child images */
+  .hero-main-img .hero-child-img {
+    display: none;
+  }
+}
+
+
+
+  #wix-feature-section h1 {
+    font-weight: bold;
+    font-size: 60px;
+    margin-top: 5rem;
+    margin-bottom: 2.5rem;
+  }
+
+  #wix-feature-section p {
+    word-spacing: 5px;
+    font-size: 16px;
+
+  }
+
+  .wix-feature-section .hr {
+    background-color: black;
+    height: 1px;
+    border-radius: 50px;
+    width: 90%;
+    margin-bottom: 1.5rem;
+  }
+  #feature-get-started-button {
+    padding: 10px 25px;
+    font-size: 24px;
+    border-radius: 30px;
+    background-color: rgb(81, 25, 212);
+    color: #fff;
+    border: none;
+    margin-top: 1rem;
+  }
+  #feature-get-started-button:hover{
+    background-color: #166AEA;
+    transition: 0.5s;
+  }
+ 
+
+/* Feature section end */
+
+/* crousal section start*/
+#crousal-section{
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    margin-top: 20vh;
+}
+#crousal-section h1{
+    padding-top: 15vh;
+    color: #fff;
+    font-weight: 700;
+    font-size: 64px;
+    text-align: center;
+
+}
+
+#crousal-section-get-started-button{
+    padding: 10px 25px;
+    font-size: 24px;
+    border-radius: 30px;
+    background-color: #fff;
+    color: black;
+    border: none;
+    margin-top: 4vh;
+}
+#crousal-section-get-started-button:hover{
+ background-color: #d5e3f5;
+}
+
+/* crousal section end */
+
+/* build more section */
+#build-more-section {
+  margin: 7rem 0rem;
+  display: flex;
+  justify-content: space-between;
+}
+#build-more-section h1{
+  font-size: 62px;
+  word-spacing: 15px;
+  margin-left: 4rem;
+  font-weight: 600;
+}
+#build-more-section p{
+ margin: auto; 
+ margin-top: 3vh;
+ font-size: 16px;
+ word-spacing: 1vh;
+ margin-bottom: 1rem;
+ margin-left: 4rem;
+
+}
+#build-more-section a{
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  margin-left: 4rem;
+}
+#build-more-section a:hover{
+  color: #4387ee;
+}
+@media screen and (max-width: 700px){
+  #build-more-section{
+    width: 100%;
+  }
+  .build-more-section h1 {
+    animation: faizan 4s 1s right;
+    margin-bottom: 1rem;
+  }
+}
+
+/* build more section end */
+
+.create-section-col{
+  background-color: #dac4fb;
+  margin: 0%;
+  cursor: pointer;
+}
+#create-section h1{
+   font-size: 62px;
+   font-weight: bold;
+   margin-left: 5%;
+}
+#cccc{
+  margin-top: 12rem;
+  
+}
+#create-section ul{
+  cursor: pointer;
+  list-style: none;
+  margin-top: 2rem;
+}
+#create-section ul li{
+  line-height: 30px;
+  font-size: 16px;
+
+}
+#create-get-started-button {
+  padding: 10px 25px;
+    font-size: 24px;
+    border-radius: 30px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    margin-top: 10vh;
+    margin-left: 5%;
+    margin-bottom: 5rem;
+}
+#create-get-started-button:hover{
+  background-color: rgb(43, 43, 43);
+  transition: 0.5s;
+}
+@media screen and (max-width: 990px){
+  .create-section-col{
+    margin-top: 2rem;
+  }
+  #cccc{
+    justify-content: center;
+}
+  
+}
+/* create section end */
+
+/* foundation section start */
+#foundation-main-container{
+  background-color: #f1dda9;
+  text-align: center;
+  padding-bottom: 4rem;
+   
+}
+#foundation-container-content{
+  padding-top: 8rem;
+
+}
+
+#foundation-container-content h1{
+  font-size: 62px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 5rem;
+
+}
+#foundation-container-content .col-4{
+  margin-bottom: 12rem;
+  background-color: #166AEA;
+
+}
+#foundation-container-content h5{
+  font-size: 30px;
+  text-shadow: -6px 6px  #eff30f34;
+  font-weight: bold;
+
+}
+#foundation-container-content p{
+  font-size: 18px;
+  margin-bottom: 4rem;
+
+}
+
+
+/* foundation container end */
+
+#reference-designed {
+  border: 1px solid;
+  border-left: none;
+  border-right: none;
+  margin-top: 5rem;
+  align-items: center;
+}
+#reference-designed p {
+  margin: 4rem 0px;
+}
+
+#footer-wix-logo {
+  width: 100px;
+  margin-left: 10%;
+  
+}
+@media screen and (min-width: 1000px){
+  #footer-wix-logo {
+    width: 100px;
+    margin-top: -18%;
+    
+  }
+  
+}
+/* Footer */
+
+#footer {
+  display: flex;
+
+}
+
+  .footer-col-head {
+  font-weight: bold;
+  margin-left: %;
+  
+}
+
+.footer-ul {
+  list-style: none;
+
+
+}
+
+
+.footer-ul a {
+  color: black;
+  text-decoration: none;
+  margin-top: 1vh;
+}
+
+#footer li {
+  margin-top: 2vh;
+}
+#footer-top-set{
+  margin: auto;
+}
+.footer-ul li:hover {
+
+  color: #0d6dfdbd;
+}
+#footer-top-element-icon{
+  margin-top: 5vh;
+}
+#footer-top-element-icon i:hover{
+  color: #0d6efd;
+}
+#footer-top-element-icon i{
+  color: black;
+  font-size: 20px;
+  margin-left: 1vh;
+  margin-bottom: 3rem;
+}
+/* for bottom */
+ @media screen and (max-width: 1000px){
+  #footer-bottom-element{
+   display: none;
+  } 
+  
+}
+ @media screen and (max-width: 650px){
+  #i-icon-bottom-nav{
+    display: none;
+  }
+   
+}
+
+
+/* for top */
+@media screen and (max-width: 1000px){
+  #top-footer-element{
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 1000px){
+  #i-icon-bottom-nav, #footer-bottom-element{
+    display: none;
+  }
+  #bottom-nav-items{
+    display: block;
+    position: relative;
+    justify-content: center;
+  }
+
+}
+@media screen and (min-width: 1000px){
+  #bottom-nav-items{
+    display: block;
+    position: relative;
+    justify-content: center;
+  }
+
+}
+
+
+/* Bottom nav  */
+#wix-bottom-nav {
+  display: block;
+  border-top: 1px solid;
+  margin-top: 5vh;
+  padding: 2rem 0rem;
+  background-color: #fff;
+}
+#wix-bottom-nav i{
+  color: black;
+  font-size: 20px;
+  margin-left: 1rem;
+}
+#bottom-nav-items a {
+  margin-right: 2rem;
+  text-decoration: none;
+  color: #000000;
+}
+#bottom-nav-items a:hover, #wix-bottom-nav i:hover {
+  color: #0d6efd;
+}
+
+
+

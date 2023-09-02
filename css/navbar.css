@@ -1,0 +1,158 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-logo {
+    width: auto;
+    height: 5rem;
+    margin-left: 1rem;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 3rem;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    color: #166AEA;
+}
+
+#nav-login-button {
+    border: none;
+    color: black;
+    background: none;
+    text-decoration: underline;
+    font-size: 1rem;
+}
+
+#nav-login-button:hover {
+    color: #639ef8;
+}
+
+#nav-getstarted-button {
+    background-color: #166AEA;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    width: 10rem;
+    margin-left: 1rem;
+    padding: 5px 20px;
+}
+
+#nav-getstarted-button:hover {
+    background-color: #3a84f1;
+}
+
+#nav-globe {
+    color: black;
+    margin-top: 1px;
+    margin-left: 2rem;
+}
+
+.containers  {
+width: 70%;
+}
+
+#nav-globe:hover {
+    color: #166AEA;
+}
+
+.navbar-toggler:hover {
+    color: red;
+    background-color: green;
+    color: #fff;
+}
+
+@media screen and (max-width: 900px) {
+    #nav-getstarted-button {
+        position: static;
+        margin-right: 1rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .slash {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    nav ul {
+        background-color: #e3e4e927;
+        margin: auto
+    }
+
+    .end-item {
+        margin: 1rem auto;
+    }
+
+    button {
+        display: column;
+    }
+}
+
+
+/* side bar element */
+
+#side-bar-element{
+    width: 28px;
+    background-color: rgb(255, 255, 255);
+    height: 155px;
+    padding-top: 15px;
+    padding-right: 1px;
+    font-weight: 500;
+    font-size: 16px;
+    writing-mode: vertical-lr;
+    position: fixed;
+    color: black;
+    top: 18rem;
+    border: 1px solid rgba(0, 0, 255, 0.096);
+    
+}
+
+#side-bar-element a {
+    text-decoration: none;
+    color: black;
+    color: #000000;
+}
+
+
+@media screen and (max-width: 767px) {
+    .navbar-nav {
+      flex-direction: column;
+      margin-left: 0; /* Remove margin-left */
+    }
+  
+    .navbar-nav .nav-item {
+      margin-bottom: 10px;
+    }
+  
+    .navbar-toggler {
+      margin-left: auto;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .containers {
+      width: auto; 
+      padding: 0 5px; /* Add padding for better mobile display */
+    }
+  }
+  
+  #side-bar-element {
+    display: none;
+  }
+  
+
